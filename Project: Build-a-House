@@ -1,11 +1,8 @@
 background(219, 255, 255);
-
 fill(68, 70, 79);
 triangle(200, 28, 350, 150, 50, 150);
-
 fill(255, 255, 255);
 rect(60, 150, 280, 207);
-
 fill(133, 107, 90);
 
 var BrickWall = 0;
@@ -17,11 +14,8 @@ for (var Wallheight; Wallheight<206; Wallheight += 20.7) {
         rect(60+BrickWall,150+Wallheight,28,20.7);
     }
 }    
-
-
 fill(120, 80, 19);
 rect(180, 280, 40, 77);
-
 fill(188, 224, 215);
 
 var Window = 0;
